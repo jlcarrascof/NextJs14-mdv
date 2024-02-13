@@ -8,10 +8,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <h1>This title</h1>
-        <div style={{ border: '1px solid #000'}}>
-          {children}
-        </div>
+        {children}
       </body>
     </html>
   );
